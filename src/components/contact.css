@@ -1,0 +1,46 @@
+.Card{
+    padding: 20px;
+    background-color: rgb(238, 231, 231);
+    border-radius: 5px;
+    width: 180px;
+    color: rgb(105, 105, 139);
+    
+}
+
+.Card-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Card-column{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+  }
+a:hover {
+     color: #00F
+  }
+.Card-row-second{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+.Icon-image {
+    width: 30px
+    /* padding: 20px; */
+    /* margin: 10px; */
+    /* width: 50%; */
+    /* size: unset; */
+    
+}
